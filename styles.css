@@ -88,13 +88,13 @@ main {
 }
 
 .titulo-grande {
-    font-size: 65px;
+    font-size: 60px;
     line-height: 1.2;
 }
 
 @media (max-width: 415px) {
     .titulo-grande {
-      font-size: 40px;
+      font-size: 30px;
       line-height: 1.2;
     }
 }
