@@ -52,21 +52,18 @@ body {
 
 @media (max-width: 296px) {
     .icono-menu-color {
-        color: #27c1c1;
         font-size: 19px;
     }
 } 
 
 @media (max-width: 288px) {
     .icono-menu-color {
-        color: #27c1c1;
         font-size: 17px;
     }
 }
 
 @media (max-width: 282px) {
     .icono-menu-color {
-        color: #27c1c1;
         font-size: 15px;
     }
 }  
@@ -99,12 +96,29 @@ main {
     }
 }
 
+.section-2 {
+    background-color: #212429;
+}
+
 /* Footer */
 
 footer {
     background-color: #1F2024;
+    font-family: 'Lato', sans-serif;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer i {
+    color: #ffc107;
+}
+
+.iconos-color {
+    color: #ffc107;
+}
 
 
 
