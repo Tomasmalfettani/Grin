@@ -33,7 +33,7 @@ body {
 }
 
 .links-menu a:hover {
-    color: #FFC107;
+    color: #27c1c1;
     /* text-shadow: 0 0 10px #FFC107; */
 }
 
@@ -46,27 +46,27 @@ body {
 }
 
 .icono-menu-color {
-    color: #FFC107;
+    color: #27c1c1;
     font-size: 22px;
 }
 
 @media (max-width: 296px) {
     .icono-menu-color {
-        color: #FFC107;
+        color: #27c1c1;
         font-size: 19px;
     }
 } 
 
 @media (max-width: 288px) {
     .icono-menu-color {
-        color: #FFC107;
+        color: #27c1c1;
         font-size: 17px;
     }
 }
 
 @media (max-width: 282px) {
     .icono-menu-color {
-        color: #FFC107;
+        color: #27c1c1;
         font-size: 15px;
     }
 }  
