@@ -97,10 +97,6 @@ main {
     }
 }
 
-.section-2 {
-    background-color: #212429;
-}
-
 /* Footer */
 
 footer {
@@ -116,11 +112,3 @@ footer a {
 footer i {
     color: #ffc107;
 }
-
-.iconos-color {
-    color: #ffc107;
-}
-
-
-
-  
