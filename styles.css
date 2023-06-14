@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
+html {
+    scroll-behavior: smooth;
     scrollbar-color: #888 #343a40;
+    margin: 0;
+    padding: 0;   
 }
 
 ::-webkit-scrollbar {
