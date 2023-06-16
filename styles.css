@@ -35,7 +35,6 @@ html {
 
 .links-menu a:hover {
     color: #27c1c1;
-    /* text-shadow: 0 0 10px #FFC107; */
 }
 
 .logo-menu {
@@ -44,6 +43,7 @@ html {
 
 .fondo-negro {
     background-color: #1F2024;
+    border-bottom: 2px solid #ffc107;
 }
 
 .icono-menu-color {
@@ -95,6 +95,20 @@ main {
       font-size: 30px;
       line-height: 1.2;
     }
+}
+
+.card-header {
+    position: relative;
+}
+  
+  .card-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #ffc107;
 }
 
 /* Footer */
