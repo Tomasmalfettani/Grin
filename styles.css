@@ -115,6 +115,31 @@ main {
     background-color: #ffc107;
 }
 
+.custom-color {
+    color: #27c1c1;
+}
+
+.custom-bold {
+    font-weight: bold;
+}
+
+.custom-number {
+    animation: count-up 2s ease-in-out;
+}
+
+@keyframes count-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
 /* Footer */
 
 footer {
