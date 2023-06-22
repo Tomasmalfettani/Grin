@@ -43,7 +43,7 @@ html {
 
 .fondo-negro {
     background-color: #1F2024;
-    border-bottom: 2px solid #ffc107;
+    /* border-bottom: 2px solid #ffc107; */
 }
 
 .icono-menu-color {
@@ -101,13 +101,17 @@ main {
     position: relative;
 }
   
-  .card-header::after {
+.card-header::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: -2px;
     width: 100%;
     height: 2px;
+    background-color: #ffc107;
+}
+
+.fondo-amarillo {
     background-color: #ffc107;
 }
 
