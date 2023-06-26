@@ -135,11 +135,30 @@ main {
     }
 }
 
+/* @keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+} */
+
 .separator {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 50px 0;
+
 }
 
 .separator-line {
@@ -154,6 +173,13 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
+    /* animation: shake 0.5s steps(5) infinite;
+    animation-delay: 5s; */
+}
+
+.service i {
+    color: #27c1c1;
+    font-size: 20px;
 }
 
 /* Footer */
