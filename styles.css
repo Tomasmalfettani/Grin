@@ -108,11 +108,7 @@ main {
     bottom: -2px;
     width: 100%;
     height: 2px;
-    background-color: #ffc107;
-}
-
-.fondo-amarillo {
-    background-color: #ffc107;
+    background-color: #27c1c1;
 }
 
 .custom-color {
@@ -159,9 +155,6 @@ main {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
-
-
 
 /* Footer */
 
