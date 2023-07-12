@@ -5,6 +5,7 @@ html {
     scrollbar-color: #888 #343a40;
     margin: 0;
     padding: 0;
+    background-color: #1F2024;
 }
 
 ::-webkit-scrollbar {
@@ -23,6 +24,13 @@ html {
     background-color: #555;
 }
 
+body {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: #1F2024;
+}
 
 /* Header */
 
