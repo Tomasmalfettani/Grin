@@ -8,21 +8,21 @@ document.addEventListener("DOMContentLoaded", function () {
       reset: true
   });
 
-  var numberElements = document.querySelectorAll(".custom-number");
+  let numberElements = document.querySelectorAll(".custom-number");
 
-  var options = {
+  let options = {
       root: null, 
       threshold: 0.5 
   };
 
-  var callback = function(entries, observer) {
+  let callback = function(entries, observer) {
       entries.forEach(function(entry) {
           if (entry.isIntersecting) {
-              var targetNumber = parseInt(entry.target.getAttribute("data-number"));
-              var currentNumber = 0;
-              var increment = Math.ceil(targetNumber / 100);
+              let targetNumber = parseInt(entry.target.getAttribute("data-number"));
+              let currentNumber = 0;
+              let increment = Math.ceil(targetNumber / 100);
 
-              var interval = setInterval(function() {
+              let interval = setInterval(function() {
                   if (currentNumber >= targetNumber) {
                       clearInterval(interval);
                   }
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   };
 
-  var observer = new IntersectionObserver(callback, options);
+  let observer = new IntersectionObserver(callback, options);
 
   numberElements.forEach(function(element) {
       observer.observe(element);
